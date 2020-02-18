@@ -21,6 +21,7 @@
 }
 
 .box-3 {
+  /* Alternative: */
   /* background-image: linear-gradient(to bottom, powderblue, pink, plum); */
   background-image: linear-gradient(to bottom, lightcyan, pink, plum);
 }
