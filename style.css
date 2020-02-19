@@ -1,7 +1,7 @@
 #container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
   width: 825px;
 }
@@ -12,64 +12,68 @@
   border: solid 2px black;
 }
 
-.box-1 {
+#box-1 {
   background-image: linear-gradient(to bottom, seashell, pink);
 }
 
-.box-2 {
+#box-2 {
   background-image: linear-gradient(to bottom, salmon, saddlebrown);
 }
 
-.box-3 {
+#box-3 {
   /* Alternative: */
   /* background-image: linear-gradient(to bottom, powderblue, pink, plum); */
   background-image: linear-gradient(to bottom, lightcyan, pink, plum);
 }
 
-.box-4 {
+#box-4 {
   background-image: linear-gradient(to bottom, plum, purple);
 }
 
-.box-5 {
+#box-5 {
   background-image: linear-gradient(to bottom, linen, lightcoral);
 }
 
-.box-6 {
-  background-image: linear-gradient(to bottom, darksalmon, darkred);
-}
-
-.box-7 {
-  background-image: linear-gradient(to bottom, honeydew, green);
-}
-
-.box-8 {
-  background-image: linear-gradient(to bottom, mintcream, mistyrose);
-}
-
-.box-9 {
-  background-image: linear-gradient(to bottom, oldlace, moccasin);
-}
-
-.box-10 {
-  background-image: linear-gradient(to bottom, papayawhip, pink)
-}
-
-.box-11 {
-  background-image: linear-gradient(to bottom, mintcream, paleturquoise)
-}
-
-.box-12 {
+#box-6 {
   background-image: linear-gradient(to bottom, whitesmoke, silver)
 }
 
-.box-13 {
+#box-7 {
+  background-image: linear-gradient(to bottom, honeydew, green);
+}
+
+#box-8 {
+  background-image: linear-gradient(to bottom, mintcream, mistyrose);
+}
+
+#box-9 {
+  background-image: linear-gradient(to bottom, oldlace, moccasin);
+}
+
+#box-10 {
+  background-image: linear-gradient(to bottom, papayawhip, pink)
+}
+
+#box-11 {
+  background-image: linear-gradient(to bottom, mintcream, paleturquoise)
+}
+
+#box-12 {
+  background-image: linear-gradient(to bottom, darksalmon, darkred);
+}
+
+#box-13 {
   background-image: linear-gradient(to bottom, #f2fcfe, #1c92d2)
 }
 
-.box-14 {
+#box-14 {
   background-image: linear-gradient(to bottom, #ff9966, #ff5e62)
 }
 
-.box-15 {
+#box-15 {
   background-image: linear-gradient(to bottom, seashell, salmon)
+}
+
+#box-16 {
+  background-image: linear-gradient(to bottom, peachpuff, salmon)
 }
